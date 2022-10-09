@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-// import About from './components/about/About';
-// import Contact from './components/contact/Contact';
-// import Intro from './components/intro/Intro';
-// import ProductList from './components/productList/ProductList';
 import Toggle from './components/toggle/Toggle';
+import Intro from './components/intro/Intro';
+import About from './components/about/About';
+// import Contact from './components/contact/Contact';
+// import ProductList from './components/productList/ProductList';
 import { ThemeContext } from './context';
 
 const App = () => {
@@ -17,10 +17,10 @@ const App = () => {
       }}
     >
       <Toggle />
-      {/* <Intro />
+      <Intro />
       <About />
-      <ProductList />
-      <Contact /> */}
+      {/* <ProductList /> */}
+      {/* <Contact /> */}
     </div>
   );
 };
