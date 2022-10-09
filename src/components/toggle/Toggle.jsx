@@ -14,8 +14,16 @@ const Toggle = () => {
   };
   return (
     <div className="t">
-      <img src="./sun.png" alt="" className="t-icon" />
-      <img src="./moon.png" alt="" className="t-icon" />
+      <img
+        src="https://res.cloudinary.com/daxrdiiyr/image/upload/v1665311919/dungthinh/sun_vzpm1o.png"
+        alt=""
+        className="t-icon"
+      />
+      <img
+        src="https://res.cloudinary.com/daxrdiiyr/image/upload/v1665311919/dungthinh/moon_ijrgwr.png"
+        alt=""
+        className="t-icon"
+      />
       <div
         className="t-button"
         onClick={handleClick}

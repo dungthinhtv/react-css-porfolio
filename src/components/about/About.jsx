@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './about.css';
-// import Award from '../../img/award.png';
 
 const About = () => {
   return (
@@ -29,7 +28,11 @@ const About = () => {
           aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
         </p>
         <div className="a-award">
-          {/* <img src={Award} alt="" className="a-award-img" /> */}
+          <img
+            src="https://res.cloudinary.com/daxrdiiyr/image/upload/v1665311919/dungthinh/award_arbzqc.png"
+            alt=""
+            className="a-award-img"
+          />
           <div className="a-award-texts">
             <h4 className="a-award-title">International Design Awards 2021</h4>
             <p className="a-award-desc">

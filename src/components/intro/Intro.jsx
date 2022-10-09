@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './intro.css';
-import Me from '../../img/me.png';
 
 const Intro = () => {
   return (
@@ -84,7 +83,11 @@ const Intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        {/* <img src={Me} alt="" className="i-img" /> */}
+        <img
+          src="https://res.cloudinary.com/daxrdiiyr/image/upload/v1665312077/dungthinh/man-dev_gucl0s.png"
+          alt=""
+          className="i-img"
+        />
       </div>
     </div>
   );
